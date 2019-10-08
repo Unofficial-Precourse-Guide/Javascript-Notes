@@ -19,7 +19,7 @@ const iffy = (cond1, cond2) => {
      // then branch
     }
     
-    //if else
+    //if else 
     if (cond1) {
       // then branch
     } else {
