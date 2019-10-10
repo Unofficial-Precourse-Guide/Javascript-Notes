@@ -35,6 +35,54 @@ const iffy = (cond1, cond2) => {
       // else branch
     }       
 }
+
+
+// ASSIGNMENT 
+
+let name = "Megan" 
+
+name = "Lloyd"
+
+console.log(name) // Lloyd
+
+
+function isACat(animal) {
+  // write a function that assigns isACat to true if the animal is a cat and assigns isACat to false if the animal is not a cat
+  // return isACat 
+ // OPTION 1 
+  // let isACat = false 
+  // if (animal === "cat") {
+  //   isACat = true 
+  // } 
+   // return isACat
+  // OPTION 2 
+  // if (animal === "cat") {
+  //   isACat = true
+  // } else {
+  //   isACat = false
+  // }
+  // return isACat
+  // OPTION 3 
+  let isACat;
+  animal === "cat" ? isACat = true : isACat = false 
+
+  return isACat;
+} 
+ 
+// TERNARY  CONDITION ? WHAT TO DO IF IT IS TRUE : ELSE DO THIS
+
+
+
+
+// 3 == "3"  --- TRUE
+// 3 === 3 --- TRUE 
+// 3 === "3" --- FALSE 
+
+
+
+
+
+
 // iffy()
 // ███████╗██╗    ██╗██╗████████╗ ██████╗██╗  ██╗
 // ██╔════╝██║    ██║██║╚══██╔══╝██╔════╝██║  ██║
@@ -61,7 +109,8 @@ const dayOfTheWeek = (num) => {
       throw new Error('Unknown value: ' + num)
   }
 }
-// dayOfTheWeek(3)
+ dayOfTheWeek(3)
+ console.log(dayOfTheWeek(3))
 const isWeekDay = (name) => {
   switch (name) {
     case 'Monday':

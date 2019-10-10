@@ -37,7 +37,6 @@ function example() {
     return num1 * num2 
   }
   
-  
   // this equation should take in a math equation function that has 2 parameters and return what that function returns.
   function mathEquation(callback, num1, num2) {
     return callback(num1, num2)
